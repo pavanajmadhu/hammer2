@@ -9,14 +9,14 @@ class stone{
         this.box=Bodies.rectangle(x,y,30,30,options)
         this.width=60;
         this.height=60;
-        World.add(world, this.body);
+        World.add(world, this.box);
     }
     display(){
         var position=this.box.position;
         
         translate(position.x,position.y)
         rectMode(CENTER);
-        rect(0,0,30,30);
+        rect(0,0,80,130);
     
        
     }

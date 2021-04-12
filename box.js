@@ -16,7 +16,7 @@ class iron{
         
     
         rectMode(CENTER);
-        rect(position.x,position.y,0,60,60);
+        rect(position.x,position.y,110,150);
     
        
     }

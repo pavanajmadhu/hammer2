@@ -15,7 +15,7 @@ function setup(){
     hammer = new Hammer(10,100);
     box1 = new iron(600,420);
     stone1 = new stone(400,420);
-    rubber1 = new Rubber(200,420,3);
+    rubber1 = new Rubber(200,420);
   
 
 

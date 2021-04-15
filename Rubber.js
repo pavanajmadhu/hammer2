@@ -1,11 +1,9 @@
 class Rubber{
-	constructor(x,y,r)
+	constructor(x,y)
 	{
 	// assign options to the rubber ball
-		this.x=x;
-		this.y=y;
-		this.r=r
-		this.body=Bodies.circle(this.x, this.y, (this.r-20)/2)
+		
+		this.body=Bodies.circle(x, y,10)
 		World.add(world, this.body);
 
 	}
@@ -19,7 +17,8 @@ class Rubber{
 			strokeWeight(4);
 			stroke("black");
 			fill("darkblue");
-			ellipse(rubberpos.x,rubberpos.y,5)
+			ellipseMode(RADIUS);
+			ellipse(rubberpos.x,rubberpos.y,10,10)
 			//draw the ellipse here to display the rubber ball
 
 			pop()
